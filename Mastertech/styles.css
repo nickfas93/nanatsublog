@@ -4,16 +4,26 @@
     margin-right: 10px; 
 }
 
+body{
+    background-color: black;
+}
+title{
+    font-size: 30px;
+    font-family: fantasy;
+}
+
 /* Configuracoes do header */
 
 header{
-    position: relative;
     width: 99%;
     background-color: blanchedalmond;
-    height: 100px;
+    height: 150px;
     background-color:#990000; 
 }
 
+.nav{
+    position: flex;
+}
 .centro{
     text-align: center;
 }
@@ -25,6 +35,19 @@ header{
     top: -50px;
     text-decoration: none;
         
+}
+
+.grande{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 40px;
+
+}
+
+.interna{
+    border:none;
+    border: 2px solid red;
+
 }
 
 .menu li{
@@ -46,8 +69,6 @@ header{
     margin-bottom: 100px; 
     
 }
-
-
 
 .logo{
     
@@ -124,4 +145,9 @@ header{
 
 .dropdown:hover .dropbtn {
     background-color: #990000;
+}
+
+.disclaimer{
+    background-color: black;
+    color: white;
 }
