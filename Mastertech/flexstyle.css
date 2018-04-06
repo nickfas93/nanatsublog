@@ -1,0 +1,13 @@
+#grande{
+    background-color: blue;
+    border: 3px solid black;
+    display: flex;
+
+}
+
+.interna{
+    font-size: 40pt;
+    color: white;
+    background-color: purple;
+    border: 2px red solid;
+}
